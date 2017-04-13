@@ -8,7 +8,7 @@ repositories {
 }
 
 dependencies {
-    compile 'cn.featherfly:featherfly-conversion:latest.integration'
+    compile 'cn.featherfly:featherfly-conversion:1.2.2'
     
     compile 'org.slf4j:slf4j-api:1.7.25'
 
