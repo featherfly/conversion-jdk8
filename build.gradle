@@ -4,6 +4,12 @@ apply from: './java_base.gradle'
 apply from: './maven_push.gradle'
 
 repositories {
+    maven {
+        url  ant.properties['user.home'] +  "/.m2/repository"
+    }
+    maven {
+        url  "http://maven.aliyun.com/nexus/content/groups/public/"
+    }
     mavenCentral()
 }
 
